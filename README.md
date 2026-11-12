@@ -4,7 +4,18 @@
 >
 > 一个给 AI 编程助手用的技能：带零基础的人真正做出**第一个能跑的项目**，并留下可以反复回看的教学文档。
 
+**关键词 / Keywords**：AI skill · agent skill · SKILL.md · Claude Code · Codex · learn by building · project-based learning · beginner-friendly · first mini game · starter project · tutorial · teaching docs · 项目型陪练 · 记忆卡片
+
 ---
+
+## English Overview
+
+- **What it is** — a `SKILL.md` skill for AI coding agents that takes a total beginner from zero to a **first runnable project**, and leaves durable Markdown teaching docs behind.
+- **How it works** — Step 0 environment self-check → 3–6 runnable milestones → per milestone: predict → run → compare → locate → fix → variant transfer → exit check → checkpoint.
+- **Three layers** — state / logic / render kept apart, with input treated as a separate boundary, so problems get localized to "which layer".
+- **Two optional modules** — Git backup (falls back to folder snapshots when the learner doesn't know Git) and learner-authored comments; decided by a quick pre-assessment and switchable mid-course.
+- **Deliverables** — `项目笔记.md` (project notes), `第N步-主题.md` (per-milestone teaching pages), card source/typing pair, and `project-state.md` for resuming across sessions.
+- **Install** — drop the folder into your agent's skills directory (`~/.claude/skills/`, `~/.codex/skills/`, or whatever root your tool scans). Pure Markdown, no runtime dependencies.
 
 ## 它解决什么问题
 
